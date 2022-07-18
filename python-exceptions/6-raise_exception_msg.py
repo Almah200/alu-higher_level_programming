@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 def raise_exception_msg(message=""):
     try:
-        geek = "GeeksforGeeks"
-        return geeksforgeeks
+        almah = 1
+        print(alma)
     except NameError:
-        return "NameError occurred. Some variable isn't defined."
-
-print(geek_message())
+        return 'NameError occurred. some variable is not defined'
