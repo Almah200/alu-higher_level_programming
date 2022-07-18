@@ -4,4 +4,4 @@ def raise_exception_msg(message=""):
         almah = 1
         print(alma)
     except NameError:
-        print('message')
+        print('message=""')
