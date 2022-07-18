@@ -5,3 +5,5 @@ def raise_exception_msg(message=""):
         return geeksforgeeks
     except NameError:
         return "NameError occurred. Some variable isn't defined."
+
+print(geek_message())
