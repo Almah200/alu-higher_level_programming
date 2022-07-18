@@ -4,4 +4,4 @@ def raise_exception_msg(message=""):
         almah = 1
         print(alma)
     except NameError:
-        return 'NameError occurred. some variable is not defined'
+        print('Veriable not defined')
