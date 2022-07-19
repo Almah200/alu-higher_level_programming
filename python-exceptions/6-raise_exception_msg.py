@@ -5,3 +5,4 @@ def raise_exception_msg(message=""):
         print(alma)
     except NameError:
         print('NameError occured, some variable not defined')
+raise_exception_msg()
