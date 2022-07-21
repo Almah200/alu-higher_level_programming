@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 ''' defined a class.'''
 class Square:
-    '''Initialized the parameters.'''
+    '''Represent a square.'''
     def__init__(self, size=0):
+        '''Raising and mananging errors.'''
         if not isinstance(size, int):
-            '''Raising and managing erros.'''
             raise TypeError('size must be an integer')
         elif size < 0:
             raise ValueError('size must be >= 0')
