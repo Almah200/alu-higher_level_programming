@@ -1,4 +1,13 @@
 #!/usr/bin/python3
+"""
+define a square by:
+Private instance attribute: size
+Instantiation with optional size: def __init__(self, size=0):
+size must be int, raise TypeError exception(message size must be an integer)
+if size is < 0, raise ValueError exception(message size must be >= 0)
+Public instance method: def area(self): returns the current square area
+You are not allowed to import any module
+"""
 ''' defined a class.'''
 class Square:
     '''Represent a square.'''
