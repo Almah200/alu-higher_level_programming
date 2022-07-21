@@ -4,4 +4,4 @@ class Square:
     ''' initialized private paramaters.'''
     def __init__(self, size):
         ''' indicated the private paramaters'''
-        self.size
+        self.size = size
