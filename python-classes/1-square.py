@@ -1,7 +1,14 @@
 #!/usr/bin/python3
-'''Defined a class.'''
+
+"""Define a class Square."""
+
+
 class Square:
-    ''' initialized private paramaters.'''
-    def __init__(self,size):
-        ''' named the attributes'''
-        self.__size = size
+    """Represent a square."""
+
+    def __init__(self, size):
+        """Initialize a new Square.
+        Args:
+            size (int): The size of the new square.
+        """
+        self.__size =
