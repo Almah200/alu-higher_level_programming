@@ -1,11 +1,4 @@
 #!/usr/bin/python3
-"""
-Defined a class by class Square:
-Set paramaters by def __init__(self, size=0):
-set private instance fucntion:def size(self):
-set public instance method:def area(self):
-"""
-#!/usr/bin/python3
 
 """Define a class Square."""
 
@@ -15,6 +8,7 @@ class Square:
 
     def __init__(self, size=0):
         """Initialize a new square.
+
         Args:
             size (int): The size of the new square.
         """
