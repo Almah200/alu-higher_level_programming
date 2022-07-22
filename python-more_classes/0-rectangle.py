@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""Defines a Rectangle class."""
 
-"""Defined a class."""
+
 class Rectangle:
-    """initiated a parameter."""
+    """Represent a rectangle."""
     pass
