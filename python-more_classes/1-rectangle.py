@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-'''Defined aclass rectangle.'''
+'''
+Define a rectanle:
+set a private instance attribute lenght and width
+set property setter and getter for width and lenght
+'''
 class Rectangle:
     '''.instantiation  a class.'''
     def __init__(self, width, height):
