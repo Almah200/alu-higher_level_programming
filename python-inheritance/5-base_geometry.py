@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-Class BaseGeometry:
+'''created a class.'''
+
+
+class BaseGeometry:
+    '''initiated an empty class.'''
     pass
