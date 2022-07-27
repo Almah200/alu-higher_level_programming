@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def repeat(word, n, sep=', '):
-    return sep.join(word for _ in range(n))
+def magic_string():
+    magic_string.n = getattr(magic_string, 'n', 0) + 1
+    return ("BestSchool, " * (magic_string.n - 1) + "BestSchool"))
