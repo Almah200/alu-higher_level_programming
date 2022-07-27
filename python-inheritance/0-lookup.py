@@ -4,4 +4,4 @@
 
 def lookup(obj):
     '''.instantiated a method.'''
-    return dir(obj)i
+    return dir((obj))
