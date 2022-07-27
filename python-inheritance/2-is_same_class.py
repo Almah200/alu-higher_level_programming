@@ -4,8 +4,7 @@
 
 def is_same_class(obj, a_class):
     ''' instantiated isinstance method.'''
-    if isinstance(obj, a_class):
-        print('True')
-    else:
-        print('False')
+    if isinstance(obj, a_class)::
+        return  True
+    return False
 
