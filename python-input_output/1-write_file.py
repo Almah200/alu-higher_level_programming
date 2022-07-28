@@ -11,5 +11,5 @@ def write_file(filename="", text=""):
     Returns:
         The number of characters written.
     """
-    with open(filename, 'w', encoding = 'utf-8') as almah:
+    with open(filename, 'w', encoding= 'utf-8') as almah:
         return almah.write(text)
