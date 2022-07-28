@@ -6,5 +6,5 @@ import jason
 
 def save_to_json_file(my_obj, filename):
     '''.openining a file for writing.'''
-    with open(filename. 'w') as f:
-        return jason.load(my_obj)
+    with open(filename, 'w') as f:
+        json.dump(my_obj, f)
