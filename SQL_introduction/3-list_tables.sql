@@ -2,4 +2,4 @@
 SELECT
 *
 FROM
-database.tables;
+mysql.tables;
