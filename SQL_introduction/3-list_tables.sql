@@ -1,5 +1,4 @@
 -- List all tables in MYSQL server
-SELECT
-*
+SELECT *
 FROM
 mysql.tables;
