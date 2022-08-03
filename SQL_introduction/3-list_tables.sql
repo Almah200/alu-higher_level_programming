@@ -1,3 +1,3 @@
 -- List all tables in MYSQL server
-USE mysql
+USE databasel
 SHOW TABLES;
