@@ -1,4 +1,4 @@
 -- List all tables in MYSQL server
+USE mysql
 SELECT *
-FROM
-mysql.tables;
+FROM INFORMATION_SCHEMA.TABLES;
