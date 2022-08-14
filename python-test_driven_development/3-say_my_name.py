@@ -1,9 +1,9 @@
-#!/urs/bin/python3
+#!/usr/bin/python3
 """ function to print 2 names"""
 
 
 def say_my_name(first_name, last_name=""):
-        """function"""
+    """function"""
     try:
         name = "My name is"
         if type(first_name) is not str:
